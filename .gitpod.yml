@@ -1,0 +1,4 @@
+tasks:
+  - init: npm install && mvn install -DskipTests=false
+image:
+  file: .gitpod.Dockerfile
